@@ -1,0 +1,55 @@
+/* Background gradient */
+.update-leave-container {
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Glass effect card */
+.glass-box {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Input styles */
+form input,
+form textarea {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  transition: 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Button hover effect */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive padding */
+@media screen and (max-width: 768px) {
+  .glass-box {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

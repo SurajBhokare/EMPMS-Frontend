@@ -1,0 +1,59 @@
+/* Background wrapper with gradient */
+.leave-apply-wrapper {
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+/* Form styling */
+form {
+  background-color: #ffffff;
+  border: 2px solid #0077cc;
+  border-radius: 20px;
+  padding: 30px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+form:hover {
+  box-shadow: 0 0 20px rgba(0, 119, 204, 0.15);
+}
+
+/* Inputs and textarea */
+input,
+textarea {
+  border-radius: 10px !important;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.3);
+}
+
+/* Labels */
+label {
+  color: #333;
+  font-weight: 500;
+}
+
+/* Heading */
+.heading {
+  color: #005fa3;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Submit Button */
+.btn-primary {
+  background-color: #0077cc;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #005fa3;
+}

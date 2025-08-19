@@ -1,0 +1,32 @@
+/* src/Newsletter.css */
+.newsletter-section {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #ffea00, #d369d9);
+  color: white;
+  text-align: center;
+}
+
+.newsletter-section input {
+  padding: 10px;
+  width: 250px;
+  max-width: 80%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.newsletter-section button {
+  padding: 10px 20px;
+  border: none;
+  background: #ef26266d;
+  color: #0072ff;
+  font-weight: bold;
+  border : 2px solid #0072ff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.newsletter-section button:hover {
+  background: #fff;
+}

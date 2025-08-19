@@ -1,0 +1,118 @@
+.about-section {
+  background: linear-gradient(145deg, #f0f4f8, #e0e8f0);
+  padding: 60px 0;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+.intro h2 span {
+  color: #007bff;
+}
+.intro p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+.cards-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  padding: 30px 20px 50px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.icon-wrapper {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+  animation: float 4s ease-in-out infinite;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.svg-icon {
+  width: 40px;
+  height: 40px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(-50%, -5px); }
+  50% { transform: translate(-50%, 5px); }
+}
+
+.lottie {
+  width: 120px;
+  height: 120px;
+  margin: 30px auto 20px;
+}
+
+.card.mission {
+  background: linear-gradient(135deg, #fffbea, #fff2c4);
+  background-image: url(/public/Svg/mission.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fadeIn 1s ease-in-out alternate;
+  color: whitesmoke;
+}
+.card.mission:hover,.card.coding:hover,.card.teamwork:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 5px 10px rgb(112, 111, 111);
+}
+.card.coding {
+  background: linear-gradient(135deg, #e8f7ff, #cfe8ff);
+  background-image: url(/public/Svg/vision.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fadeIn 1s ease-in-out alternate;
+  color: whitesmoke;
+}
+.card.teamwork {
+  /* background: linear-gradient(135deg, #e8ffe8, #cfeecf); */
+  background-image: url(/public/Svg/team2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   animation: fadeIn 1s ease-in-out alternate;
+  color: whitesmoke;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 0.95rem;
+  color: whitesmoke;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .intro h2 {
+    font-size: 2rem;
+  }
+}

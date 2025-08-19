@@ -1,0 +1,17 @@
+/* body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
+} */
+
+ body {
+  /* background: linear-gradient(to right, #fbc2eb, #a6c1ee); */
+  /* background: linear-gradient(to right, #a8edea, #fed6e3); */
+  /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+  color: #333;
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+    width: 100%;
+}
+

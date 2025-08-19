@@ -1,0 +1,88 @@
+.birthday-status {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.send-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 2rem auto;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.send-btn:hover {
+  background-color: #e91e63;
+}
+
+.status-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.employee-card {
+  background: rgb(228, 175, 40);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 300px;
+  padding: 1.5rem 1rem 1rem;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.employee-card:hover{
+    background-color: rgba(255, 217, 0, 0.793);
+    box-shadow: 2px 2px 2px black;
+    transform:rotateY('10deg')
+}
+
+.employee-card h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #333;
+  font-weight: bolder;
+}
+
+.employee-card p {
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.employee-card img {
+  width: 100px;
+  height: 100px;
+  margin: 0.8rem auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ff4081;
+}
+
+.employee-card .lottie {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 150px;
+  pointer-events: none;
+}

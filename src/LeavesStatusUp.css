@@ -1,0 +1,89 @@
+/* Background for the full admin panel */
+.leaves-status-admin-wrapper {
+  background-image: linear-gradient(to top, #fbc2c2 0%, #a6c1ee 100%);
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+/* Table styling */
+.table {
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Table header */
+.table-dark {
+  background-color: #005fa3 !important;
+  color: white !important;
+}
+
+/* Table rows hover effect */
+.table-hover tbody tr:hover {
+  background-color: #e6f2ff;
+  transition: 0.3s ease-in-out;
+}
+
+/* Status badges */
+.badge {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+/* Buttons */
+button {
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline-success {
+  background-color: #e7f9ed;
+  color: #198754;
+  border: 1px solid #198754;
+}
+
+.btn-outline-danger {
+  background-color: #fce8e8;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Logo & Header */
+h2 {
+  font-size: 2rem;
+  color: #003f7d;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
